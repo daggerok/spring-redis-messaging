@@ -3,6 +3,3 @@ jdk:
   - oraclejdk8
 script:
   - ./gradlew build
-notifications:
-  on_failure: change # always|never
-  on_success: change
